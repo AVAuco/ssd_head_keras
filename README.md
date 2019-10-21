@@ -80,7 +80,7 @@ Software requirements
 <a id='software_reqs'></a>
 These are the most relevant dependencies required to use our model:
 - Python packages: pip3, [virtualenv](https://virtualenv.pypa.io/en/latest/installation/) (recommended), 
-[numpy](https://www.scipy.org/install.html#pip-install), [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) (tutorial), matplotlib.
+[numpy](https://www.scipy.org/install.html#pip-install), [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) (tutorial), matplotlib, h5py.
 - [Tensorflow](https://www.tensorflow.org/install/pip) (developed and tested on `tensorflow-gpu` 1.14).
 - [Keras](https://keras.io/#installation) (developed and tested on version 2.2.4).
 - [SSD Keras implementation](https://github.com/pierluigiferrari/ssd_keras) (essential code already provided in our repository).
