@@ -2,20 +2,20 @@ SSD-based head detector
 ======
 
 <div align="center">
-    <img src="./examples/sample_detections.jpg" alt="Image showing head detections" height="276" width="377">
+    <img src="./examples/sample_detections.jpg" alt="Image showing head detections" height="302" width="504">
 </div>
 
 By Pablo Medina-Suarez and Manuel J. Marin-Jimenez.
 
 
-This repository contains and showcases a head detector model for people detection in images. These models are based on 
+This repository contains and showcases a head detector model for people detection in images. This model is based on 
 the [Single Shot Multibox Detector (SSD)](https://arxiv.org/abs/1512.02325), as described in:
 ```
 SSD: Single Shot MultiBox Detector
 Authors: Liu, Wei; Anguelov, Dragomir; Erhan, Dumitru; Szegedy, Christian; Reed, Scott; Fu, Cheng-Yang; Berg, Alexander C. 
 ```
 
-This model has been trained using the [Hollywood Heads dataset](https://www.robots.ox.ac.uk/~vgg/software/headmview/) as
+The model has been trained using the [Hollywood Heads dataset](https://www.robots.ox.ac.uk/~vgg/software/headmview/) as
 positive samples, and a subsample of the [EgoHands dataset](http://vision.soic.indiana.edu/projects/egohands/) as negative
 samples. This model has been developed using [Pierluigi Ferarri's Keras implementation of SSD](https://github.com/pierluigiferrari/ssd_keras/)
 as primary source (of which we provide some essential code), and replicates the original [Matconvnet version of our model](https://github.com/AVAuco/ssd_people).
@@ -35,7 +35,7 @@ in a terminal:
 ```
 
 ### Optional: downloading the model manually
-In the case you just want to download our detection model, we provide a ready to use version that you can download by using 
+In the case you just want to download our detection model, we provide a ready to use version that you can download via 
 the following links. Skip this step otherwise.
 
 Since there are differences in the object serialization methods used between Python versions previous
@@ -59,7 +59,7 @@ In the `data` folder you can find a script that will download the model for you,
 
 
 ### How to use the model
-A brief tutorial is provided in the Jupyter notebook [demo_inference.ipynb.m](./demo_inference.ipynb.m). This tutorial 
+A brief tutorial is provided in the Jupyter notebook [demo_inference.ipynb](./demo_inference.ipynb). This tutorial 
 explains how to use our model to detect heads over some example images.
 
 To run this notebook on your computer, first take a look at the [software requirements section](#software_reqs), then
@@ -80,13 +80,13 @@ Software requirements
 <a id='software_reqs'></a>
 These are the most relevant dependencies required to use our model:
 - Python packages: pip3, [virtualenv](https://virtualenv.pypa.io/en/latest/installation/) (recommended), 
-[numpy](https://www.scipy.org/install.html#pip-install), [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) (tutorial), matplotlib,
-- [Tensorflow](https://www.tensorflow.org/install/pip) (tested on `tensorflow-gpu` 1.14).
-- [Keras](https://keras.io/#installation) (tested on version 2.2.4).
-- [Keras SSD implementation](https://github.com/pierluigiferrari/ssd_keras) (essential code already provided in our repository).
+[numpy](https://www.scipy.org/install.html#pip-install), [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) (tutorial), matplotlib.
+- [Tensorflow](https://www.tensorflow.org/install/pip) (developed and tested on `tensorflow-gpu` 1.14).
+- [Keras](https://keras.io/#installation) (developed and tested on version 2.2.4).
+- [SSD Keras implementation](https://github.com/pierluigiferrari/ssd_keras) (essential code already provided in our repository).
 
 Additional, recommended requirements to increase the inference performance on a NVIDIA GPU:
-- NVIDIA CUDA Toolkit (tested on v9.0 and v10.0).
+- NVIDIA CUDA Toolkit (tested on versions 9.0 and 10.0).
 - **Optional:** a NVIDIA cuDNN version matching the NVIDIA CUDA Toolkit version installed.
 
 An **optional, not recommended** [requirements file](./reqs.txt) is provided in this repository, which will allow you to install a new virtualenv
@@ -97,7 +97,7 @@ unnecessary packages in your system. If you opt for this option, run these comma
     virtualenv --system-site-packages -p python3 <venv_path>
 # Activate the venv
     source <venv_path>/bin/activate
-# Install this project dependencies using requirements file
+# Install this project dependencies using the provided requirements file
     pip install -r <download_path>/ssd_head_keras/reqs.txt
 ```
 
@@ -110,6 +110,7 @@ detections.
 ### Qualitative results
 We show some results of this head detector on the [UCO-LAEO dataset](https://github.com/AVAuco/ucolaeodb) in the 
 following video. No temporal smoothing or other kind of post-processing has been applied to the output of the detectors.
+
 **NOTE: the results shown below belong to our [Matconvnet version of our model](https://github.com/AVAuco/ssd_people), 
 a new video will be uploaded soon (please stay tuned!)**
 <div align="center">
