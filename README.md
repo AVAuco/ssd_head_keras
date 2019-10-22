@@ -2,7 +2,7 @@ SSD-based head detector
 ======
 
 <div align="center">
-    <img src="./examples/sample_detections.jpg" alt="Image showing head detections" height="302" width="504">
+    <img src="./examples/sample_detections.jpg" alt="Image showing head detections" height="302" width="404">
 </div>
 
 By Pablo Medina-Suarez and Manuel J. Marin-Jimenez.
