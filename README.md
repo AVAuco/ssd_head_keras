@@ -111,7 +111,7 @@ detections.
 We show some results of this head detector on the [UCO-LAEO dataset](https://github.com/AVAuco/ucolaeodb) in the 
 following video. No temporal smoothing or other kind of post-processing has been applied to the output of the detectors.
 
-**NOTE: the results shown below belong to our [Matconvnet version of our model](https://github.com/AVAuco/ssd_people), 
+**NOTE: the results shown below belong to the [Matconvnet version of our model](https://github.com/AVAuco/ssd_people), 
 a new video will be uploaded soon (please stay tuned!)**
 <div align="center">
     <a href="https://youtu.be/tcAFehx7Am4" alt="Head detections demo video" target="_blank">
