@@ -34,9 +34,9 @@ in a terminal:
     git clone git@github.com:AVAuco/ssd_head_keras.git (SSH)
 ```
 
-### Optional: downloading the model manually
+### Downloading the model
 In the case you just want to download our detection model, we provide a ready to use version that you can download via 
-the following links. Skip this step otherwise.
+the following links. Skip to the next section otherwise.
 
 Since there are differences in the object serialization methods used between Python versions previous
 to version 3.6, we provide two different versions of our model (we do not support Python 2.7):
