@@ -114,7 +114,7 @@ following video. No temporal smoothing or other kind of post-processing has been
 **NOTE: the results shown below belong to the [Matconvnet version of our model](https://github.com/AVAuco/ssd_people), 
 a new video will be uploaded soon (please stay tuned!)**
 <div align="center">
-    <a href="https://youtu.be/tcAFehx7Am4" alt="Head detections demo video" target="_blank">
+    <a href="https://youtu.be/-1Mu3rFJO0g" alt="Head detections demo video" target="_blank">
         <img src="http://i3.ytimg.com/vi/tcAFehx7Am4/hqdefault.jpg" height="276" width="377">
     </a>
 </div>
