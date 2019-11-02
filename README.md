@@ -114,7 +114,7 @@ following video. No temporal smoothing or other kind of post-processing has been
 **EDIT 02/11/2019: we have uploaded an updated results video!**
 <div align="center">
     <a href="https://youtu.be/-1Mu3rFJO0g" alt="Head detections demo video" target="_blank">
-        <img src="http://i3.ytimg.com/vi/-1Mu3rFJO0g/hqdefault.jpg" height="276" width="377">
+        <img src="http://i3.ytimg.com/vi/tcAFehx7Am4/hqdefault.jpg" height="276" width="377">
     </a>
 </div>
 
