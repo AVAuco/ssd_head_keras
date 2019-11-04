@@ -89,7 +89,7 @@ Additional, recommended requirements to increase the inference performance on a 
 - NVIDIA CUDA Toolkit (tested on versions 9.0 and 10.0).
 - **Optional:** a NVIDIA cuDNN version matching the NVIDIA CUDA Toolkit version installed.
 
-An **optional, not recommended** [requirements file](./reqs.txt) is provided in this repository, which will allow you to install a new virtualenv
+An **optional, not recommended** [requirements file](./requirements.txt) is provided in this repository, which will allow you to install a new virtualenv
 with all the required dependencies. Please **note** that this file has been used during development and may install additional, 
 unnecessary packages in your system. If you opt for this option, run these commands in a terminal:
 ```bash
@@ -98,7 +98,7 @@ unnecessary packages in your system. If you opt for this option, run these comma
 # Activate the venv
     source <venv_path>/bin/activate
 # Install this project dependencies using the provided requirements file
-    pip install -r <download_path>/ssd_head_keras/reqs.txt
+    pip install -r <download_path>/ssd_head_keras/requirements.txt
 ```
 
 Performance
