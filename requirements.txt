@@ -85,12 +85,12 @@ python-dateutil==2.8.0
 python-debian==0.1.27
 python-systemd==231
 pytz==2019.2
-pyxdg==0.25
+pyxdg==0.26
 PyYAML==5.1.2
 pyzmq==18.0.2
 qtconsole==4.5.1
 reportlab==3.3.0
-requests==2.9.1
+requests==2.20.0
 scikit-learn==0.21.2
 scipy==1.3.0
 screen-resolution-extra==0.0.0
@@ -111,7 +111,7 @@ tqdm==4.32.2
 traitlets==4.3.2
 ufw==0.35
 unattended-upgrades==0.1
-urllib3==1.13.1
+urllib3==1.24.2
 virtualenv==15.0.1
 wcwidth==0.1.7
 webencodings==0.5.1
