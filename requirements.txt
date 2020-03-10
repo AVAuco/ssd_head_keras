@@ -101,8 +101,8 @@ ssh-import-id==5.5
 sympy==1.4
 system-service==0.3
 tensorboard==1.14.0
-tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-estimator>=1.14.0
+tensorflow-gpu==1.15.0
 termcolor==1.1.0
 terminado==0.8.2
 testpath==0.4.2
