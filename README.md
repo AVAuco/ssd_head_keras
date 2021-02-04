@@ -42,7 +42,7 @@ Since there are differences in the object serialization methods used between Pyt
 to version 3.6, we provide two different versions of our model (we do not support Python 2.7):
 
 - [Python versions below 3.6](https://drive.google.com/open?id=12cqKTPtQBAu780219hEbST7VwQuf6xDH).
-- [Python versions above or equal to 3.6](https://drive.google.com/open?id=1vlmKOBtaT7eAd4_WcAv5MLBn7q_SWXoh).
+- [Python versions above or equal to 3.6](https://drive.google.com/open?id=1vlmKOBtaT7eAd4_WcAv5MLBn7q_SWXoh) [(see Issue #22)](https://github.com/AVAuco/ssd_head_keras/issues/22)
 
 In the `data` folder you can find a script that will download the model for you, just run the following commands:
 ```bash
@@ -78,7 +78,7 @@ This command will launch a new tab on your default browser showing the Jupyter n
 Software requirements
 ------
 <a id='software_reqs'></a>
-These are the most relevant dependencies required to use our model:
+These are the most relevant dependencies required to use our model [(see Issue #22)](https://github.com/AVAuco/ssd_head_keras/issues/22):
 - Python packages: pip3, [virtualenv](https://virtualenv.pypa.io/en/latest/installation/) (recommended), 
 [numpy](https://www.scipy.org/install.html#pip-install), [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) (tutorial), matplotlib, h5py.
 - [Tensorflow](https://www.tensorflow.org/install/pip) (developed and tested on `tensorflow-gpu` 1.14).
