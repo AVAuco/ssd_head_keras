@@ -86,7 +86,7 @@ python-debian==0.1.27
 python-systemd==231
 pytz==2019.2
 pyxdg==0.26
-PyYAML==5.1.2
+PyYAML==5.4
 pyzmq==18.0.2
 qtconsole==4.5.1
 reportlab==3.3.0
