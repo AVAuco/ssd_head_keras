@@ -59,7 +59,7 @@ notebook==6.0.0
 numpy==1.16.4
 oauthlib==1.0.3
 onboard==1.2.0
-opencv-python==3.4.5.20
+opencv-python==4.2.0.32
 padme==1.1.1
 pandas==0.24.2
 pandocfilters==1.4.2
